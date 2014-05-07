@@ -15,5 +15,4 @@ The benefits of using a project timeline:
 
 ## How to create new posts
 
-- Follow Jekyll's [instructions](http://jekyllrb.com/docs/posts/) for creating new posts.
 - Or connect your github account to [prose.io](http://prose.io/) for "a beatifully simple content authoring environment".
