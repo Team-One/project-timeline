@@ -8,9 +8,9 @@ layout: default
 		<li class="tl-node">
 			<div class="tl-stamp">{{ post.date | date_to_string }}</div>
 			{% if site.linked_posts %}
-				<div class="tl-content"><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1></div>
+				<div class="tl-content"><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><a href="http://prose.io/#Team-One/project-timeline/edit/gh-pages/_posts/{{ page.url }}"><i class="edit icon"></i></a></div>
 			{% else %}
-				<div class="tl-content"><h1>{{ post.title }}</h1>></div>
+				<div class="tl-content"><h1>{{ post.title }}</h1><a href="http://prose.io/#Team-One/project-timeline/edit/gh-pages/_posts/{{ page.url }}"><i class="edit icon"></i></a></div>
 			{% endif %}
 			{{ post.content }}
 		</li>
