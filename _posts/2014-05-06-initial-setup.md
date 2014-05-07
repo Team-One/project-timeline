@@ -6,7 +6,7 @@ published: true
 
 
 
-✓ Setup initial repo
-✓ Setup Pages
-▢ Populate some content
-▢ etc.
+- ✓ Setup initial repo
+- ✓ Setup Pages
+- ▢ Populate some content
+- ▢ etc.
