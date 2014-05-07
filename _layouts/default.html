@@ -5,8 +5,16 @@
 	<title>{{ site.title }}</title>
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" media="all" />
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+ 	<script src="/bower_components/github.commits.widget.js/js/github.commits.widget.js"></script>	
 </head>
 <body>
 	{{ content }}
+<script>
+    $(function() {
+        $('#github-commits').githubInfoWidget(
+            { user: 'team-one', repo: 'project-timeline', branch: 'master' });
+    });
+</script>
 </body>
 </html>
