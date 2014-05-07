@@ -1,6 +1,12 @@
 ---
 layout: post
-title: Fork, divide, conquer
+title: "Fork, divide, conquer"
+published: true
 ---
-Setup initial repo
-Setup Pages
+
+
+
+✓ Setup initial repo
+✓ Setup Pages
+▢ Populate some content
+▢ etc.
